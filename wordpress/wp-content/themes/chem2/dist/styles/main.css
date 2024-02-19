@@ -1,0 +1,311 @@
+.frame {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 960px;
+    position: relative;
+  }
+  
+  .frame .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Helvetica Neue-97Black Condensed Oblique", Helvetica;
+    font-weight: 900;
+    color: #d9d9d9;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .ellipse {
+    position: relative;
+    width: 46px;
+    height: 46px;
+    background-color: #d9d9d9;
+    border-radius: 23px;
+  }
+
+  .footer {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .footer .overlap-group-wrapper {
+    background-color: #ffffff;
+    width: 1280px;
+    height: 406px;
+  }
+  
+  .footer .overlap-group {
+    position: relative;
+    height: 406px;
+    background-color: #d9d9d9;
+  }
+  
+  .footer .group {
+    position: absolute;
+    width: 412px;
+    height: 315px;
+    top: 46px;
+    left: 797px;
+  }
+  
+  .footer .text-wrapper {
+    position: absolute;
+    width: 408px;
+    top: 75px;
+    left: 0;
+    font-family: "Helvetica Neue-97Black Condensed Oblique", Helvetica;
+    font-weight: 900;
+    color: #292d32;
+    font-size: 200px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+  }
+  
+  .footer .div {
+    position: absolute;
+    top: 0;
+    left: 53px;
+    font-family: "Helvetica Neue-UltraLight", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .footer .p {
+    position: absolute;
+    width: 460px;
+    top: 160px;
+    left: 94px;
+    font-family: "Helvetica Neue-97Black Condensed Oblique", Helvetica;
+    font-weight: 900;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+
+  /* Overlap group */
+.footer .overlap-group-wrapper .overlap-group{
+ transform:translatex(-118px) translatey(447px);
+ width:100vw;
+ position:relative;
+}
+
+/* Group */
+.overlap-group-wrapper .overlap-group .group{
+ transform:translatex(196px) translatey(16px);
+}
+
+.content img {
+    width: 100vw;
+}
+
+.content h1.wp-block-heading {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 100px;
+    position: relative;
+    top: -450px;
+    left: 63px;
+    color: #ffffff;
+}
+
+.content .wp-block-video video {
+    width: 80vw;
+    position: relative;
+    top: -181px;
+    left: 10vw;
+    margin-bottom: -100px;
+}
+
+.content h2.wp-block-heading {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 70px;
+    margin-left: 5vw;
+}
+
+.content p {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 2em !important;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 100px;
+}
+
+.content .wp-block-cover span {
+    margin-left: -100vw;
+    margin-right: -100vw;
+}
+
+.content .wp-block-cover {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.content .wp-block-cover .wp-block-cover__inner-container {
+    transform: translateX(-450px) translateY(206px);
+}
+
+.wp-block-cover p {
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+.content .wp-block-image .wp-image-41 {
+    position: relative;
+    top: -100px;
+    display: inline-block;
+    transform: translateX(0px) translateY(-1904px);
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 10vw;
+    z-index: -10;
+    margin-bottom: 10vw;
+}
+
+.content .wp-block-image:nth-child(8) {
+    height: 0px;
+}
+
+.content ul {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 8em;
+    position: relative;
+    left: 35vw;
+    font-weight: 300;
+}
+
+.content p:nth-child(9) {
+    margin-top: 167px;
+}
+
+.content .wp-block-table table {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    height: 419px;
+    min-width: 0px;
+}
+
+.content .wp-block-table .wp-element-caption {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    margin-left: 10vw;
+    margin-top: 2vw;
+}
+
+.content .wp-block-buttons .wp-block-button {
+    width: 1370px;
+    transform: translateX(0px) translateY(0px);
+}
+
+.wp-block-buttons .wp-block-button a {
+    width: 80vw;
+    height: 211px;
+    margin-left: 10vw;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 91px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-style: italic;
+    line-height: 80.4px;
+}
+
+.wp-block-pullquote blockquote p {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 12vw !important;
+    text-align: left;
+    line-height: 1em;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    margin-right: -9px;
+}
+
+.wp-block-pullquote blockquote cite {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.content .wp-block-image .wp-image-37 {
+    display: inline-block;
+    transform: translateX(1029px) translateY(-632px);
+}
+
+.content .wp-block-image:nth-child(14) {
+    height: 0px;
+}
+
+
+.content ol {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 5em;
+    margin-left: 10vw;
+    font-style: italic;
+}
+
+.content p:nth-child(17) {
+    font-weight: 700;
+    font-size: 62px !important;
+    text-decoration: underline;
+    text-align: center;
+    color: #000000;
+    font-style: italic;
+}
+
+.content p:nth-child(17) a {
+    font-weight: 700;
+    font-size: 62px !important;
+    text-decoration: underline;
+    text-align: center;
+    color: #000000; /* This will ensure the link is always black */
+    font-style: italic;
+}
+
+.content h3.wp-block-heading {
+    position: absolute;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    width: 771px;
+    transform: translateX(657px) translateY(-592px);
+}
+
+.content h4.wp-block-heading {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.content h2.wp-block-heading {
+    transform: translateX(0px) translateY(0px);
+}
+
+.content h5.wp-block-heading {
+    font-size: 30px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.content h6.wp-block-heading {
+    font-size: 25px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-style: normal;
+}

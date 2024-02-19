@@ -1,0 +1,592 @@
+.single-php {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.single-php .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1280px;
+  height: 8227px;
+  position: relative;
+}
+
+.single-php .overlap {
+  position: absolute;
+  width: 1280px;
+  height: 1237px;
+  top: -250px;
+  left: 0;
+}
+
+.single-php .rectangle {
+  position: absolute;
+  width: 1280px;
+  height: 831px;
+  top: 250px;
+  left: 0;
+  background-color: #292929;
+}
+
+.single-php .frame {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 960px;
+  position: absolute;
+  top: 290px;
+  left: 49px;
+}
+
+.single-php .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Helvetica Neue-97Black Condensed Oblique", Helvetica;
+  font-weight: 900;
+  color: #d9d9d9;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.single-php .ellipse {
+  position: relative;
+  width: 46px;
+  height: 46px;
+  background-color: #d9d9d9;
+  border-radius: 23px;
+}
+
+.single-php .text-wrapper-2 {
+  position: absolute;
+  top: 808px;
+  left: 49px;
+  font-family: "Helvetica Neue-97Black Condensed Oblique", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 200px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.single-php .group {
+  position: absolute;
+  width: 765px;
+  height: 765px;
+  top: 0;
+  left: 280px;
+  background-color: #d9d9d9;
+  border-radius: 382.5px;
+}
+
+.single-php .ellipse-2 {
+  position: relative;
+  width: 422px;
+  height: 422px;
+  top: 172px;
+  left: 171px;
+  background-color: #292d32;
+  border-radius: 211px;
+}
+
+.single-php .ellipse-wrapper {
+  position: absolute;
+  width: 337px;
+  height: 337px;
+  top: 900px;
+  left: 772px;
+  background-color: #d9d9d9;
+  border-radius: 168.5px;
+}
+
+.single-php .ellipse-3 {
+  position: relative;
+  width: 249px;
+  height: 249px;
+  top: 45px;
+  left: 45px;
+  background-color: #292d32;
+  border-radius: 124.34px;
+}
+
+.single-php .overlap-group {
+  position: absolute;
+  width: 1075px;
+  height: 705px;
+  top: 6429px;
+  left: 101px;
+}
+
+.single-php .div-wrapper {
+  position: absolute;
+  width: 337px;
+  height: 337px;
+  top: 0;
+  left: 685px;
+  background-color: #d9d9d9;
+  border-radius: 168.5px;
+}
+
+.single-php .text-wrapper-3 {
+  position: absolute;
+  width: 1075px;
+  top: 51px;
+  left: 0;
+  font-family: "Helvetica Neue-97Black Condensed Oblique", Helvetica;
+  font-weight: 900;
+  color: #292d32;
+  font-size: 272.2px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.single-php .image-wrapper {
+  position: absolute;
+  width: 1096px;
+  height: 756px;
+  top: 1050px;
+  left: 94px;
+  background-color: #f1f1f1;
+}
+
+.single-php .image {
+  position: absolute;
+  width: 117px;
+  height: 117px;
+  top: 319px;
+  left: 487px;
+  object-fit: cover;
+}
+
+.single-php .text-wrapper-4 {
+  position: absolute;
+  width: 587px;
+  top: 1879px;
+  left: 94px;
+  font-family: "Helvetica Neue-97Black Condensed Oblique", Helvetica;
+  font-weight: 900;
+  color: #292d32;
+  font-size: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.single-php .vuesax-bold-image-wrapper {
+  position: absolute;
+  width: 612px;
+  height: 590px;
+  top: 2556px;
+  left: 94px;
+  background-color: #f1f1f1;
+}
+
+.single-php .vuesax-bold-image {
+  top: 273px;
+  left: 256px;
+  position: absolute;
+  width: 81px;
+  height: 73px;
+}
+
+.single-php .img-wrapper {
+  position: absolute;
+  width: 711px;
+  height: 1039px;
+  top: 3220px;
+  left: 479px;
+  background-color: #f1f1f1;
+}
+
+.single-php .img {
+  top: 484px;
+  left: 315px;
+  position: absolute;
+  width: 81px;
+  height: 73px;
+}
+
+.single-php .group-2 {
+  position: absolute;
+  width: 649px;
+  height: 649px;
+  top: 2549px;
+  left: 1014px;
+  background-color: #d9d9d9;
+  border-radius: 324.5px;
+}
+
+.single-php .ellipse-4 {
+  position: relative;
+  width: 339px;
+  height: 339px;
+  top: 154px;
+  left: 154px;
+  background-color: #292d32;
+  border-radius: 169.46px;
+}
+
+.single-php .group-3 {
+  position: absolute;
+  width: 649px;
+  height: 649px;
+  top: 3610px;
+  left: -264px;
+  background-color: #d9d9d9;
+  border-radius: 324.5px;
+}
+
+.single-php .group-4 {
+  position: absolute;
+  width: 228px;
+  height: 228px;
+  top: 3310px;
+  left: 198px;
+  background-color: #d9d9d9;
+  border-radius: 114.1px;
+}
+
+.single-php .ellipse-5 {
+  position: relative;
+  width: 168px;
+  height: 168px;
+  top: 30px;
+  left: 30px;
+  background-color: #292d32;
+  border-radius: 84.2px;
+}
+
+.single-php .overlap-2 {
+  position: absolute;
+  width: 1131px;
+  height: 1583px;
+  top: 4342px;
+  left: 94px;
+}
+
+.single-php .lorem-ipsum-dolor {
+  position: absolute;
+  width: 1131px;
+  top: 0;
+  left: 0;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.single-php .span {
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+}
+
+.single-php .text-wrapper-5 {
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.single-php .flexcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48.64px;
+  position: absolute;
+  width: 971px;
+  height: 872px;
+  top: 331px;
+  left: 38px;
+}
+
+.single-php .text {
+  position: relative;
+  align-self: stretch;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 172.9px;
+  letter-spacing: 6.92px;
+  line-height: 203.6px;
+}
+
+.single-php .text-wrapper-6 {
+  letter-spacing: 11.96px;
+}
+
+.single-php .element-table {
+  display: flex;
+  flex-direction: column;
+  width: 1092px;
+  align-items: flex-start;
+  position: absolute;
+  top: 1201px;
+  left: 4px;
+  border-radius: 5.31px;
+  overflow: hidden;
+}
+
+.single-php .div-2 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.single-php .div-3 {
+  display: flex;
+  width: 148.66px;
+  align-items: center;
+  gap: 6.64px;
+  padding: 14.6px;
+  position: relative;
+  background-color: var(--layout-100);
+}
+
+.single-php .feather-icons-fi {
+  position: relative;
+  width: 13.27px;
+  height: 13.27px;
+}
+
+.single-php .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.66px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--layout-800);
+  font-size: 13.3px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.single-php .element {
+  position: relative;
+  align-self: stretch;
+  width: 1px;
+  background-color: var(--layout-200);
+}
+
+.single-php .div-4 {
+  display: flex;
+  align-items: center;
+  gap: 6.64px;
+  padding: 14.6px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--layout-100);
+}
+
+.single-php .element-2 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1.06px;
+  background-color: var(--layout-200);
+}
+
+.single-php .date {
+  display: flex;
+  width: 148.66px;
+  height: 54.42px;
+  align-items: center;
+  gap: 6.64px;
+  padding: 14.6px;
+  position: relative;
+  background-color: var(--layout-100);
+}
+
+.single-php .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--layout-800);
+  font-size: 13.3px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.single-php .title {
+  display: flex;
+  width: 148.66px;
+  height: 54.42px;
+  align-items: center;
+  gap: 6.64px;
+  padding: 14.6px 7.96px;
+  position: relative;
+  background-color: var(--layout-100);
+}
+
+.single-php .author {
+  display: flex;
+  height: 54.42px;
+  align-items: center;
+  gap: 6.64px;
+  padding: 14.6px 7.96px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--layout-100);
+}
+
+.single-php .URL {
+  display: flex;
+  height: 54.42px;
+  align-items: center;
+  gap: 6.64px;
+  padding: 14.6px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--layout-100);
+}
+
+.single-php .overlap-group-wrapper {
+  position: absolute;
+  width: 1123px;
+  height: 280px;
+  top: 6037px;
+  left: 78px;
+}
+
+.single-php .overlap-group-2 {
+  position: relative;
+  width: 1121px;
+  height: 280px;
+  background-color: #292d32;
+}
+
+.single-php .text-wrapper-9 {
+  position: absolute;
+  top: 48px;
+  left: 287px;
+  font-family: "Helvetica Neue-97Black Condensed Oblique", Helvetica;
+  font-weight: 900;
+  color: #f1f1f1;
+  font-size: 153px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.single-php .overlap-3 {
+  position: absolute;
+  width: 1126px;
+  height: 419px;
+  top: 7197px;
+  left: 94px;
+}
+
+.single-php .p {
+  width: 730px;
+  top: 0;
+  left: 396px;
+  position: absolute;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.single-php .TASTE-HEARING-SIGHT {
+  position: absolute;
+  width: 635px;
+  top: 0;
+  left: 0;
+  font-family: "Helvetica Neue-97Black Condensed Oblique", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.single-php .lorem-ipsum-dolor-2 {
+  width: 1131px;
+  top: 2002px;
+  left: 104px;
+  position: absolute;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.single-php .footer {
+  position: absolute;
+  width: 1280px;
+  height: 406px;
+  top: 7821px;
+  left: 4px;
+  background-color: #ffffff;
+}
+
+.single-php .overlap-4 {
+  position: relative;
+  width: 1280px;
+  height: 406px;
+  background-color: #d9d9d9;
+}
+
+.single-php .group-5 {
+  position: absolute;
+  width: 412px;
+  height: 315px;
+  top: 46px;
+  left: 797px;
+}
+
+.single-php .text-wrapper-10 {
+  position: absolute;
+  width: 408px;
+  top: 75px;
+  left: 0;
+  font-family: "Helvetica Neue-97Black Condensed Oblique", Helvetica;
+  font-weight: 900;
+  color: #292d32;
+  font-size: 200px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.single-php .text-wrapper-11 {
+  position: absolute;
+  top: 0;
+  left: 53px;
+  font-family: "Helvetica Neue-UltraLight", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.single-php .text-wrapper-12 {
+  position: absolute;
+  width: 460px;
+  top: 160px;
+  left: 94px;
+  font-family: "Helvetica Neue-97Black Condensed Oblique", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
