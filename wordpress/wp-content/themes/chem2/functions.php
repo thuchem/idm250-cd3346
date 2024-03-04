@@ -37,15 +37,15 @@ function wrap_menu_item_in_button($items, $args) {
 }
 
 function create_post_type() {
-    register_post_type('products', // Use lowercase for the post type ID
+    register_post_type('projects', // Use lowercase for the post type ID
         array(
             'labels' => array(
-                'name' => __('Products', 'text-domain'), // Use double underscores and specify your theme's text-domain
-                'singular_name' => __('Product', 'text-domain'),
+                'name' => __('Projects', 'text-domain'), // Use double underscores and specify your theme's text-domain
+                'singular_name' => __('Projects', 'text-domain'),
             ),
             'public' => true,
             'has_archive' => true,
-            'rewrite' => array('slug' => 'products'), // Optional: Custom slug for archive pages
+            'rewrite' => array('slug' => 'projects'), // Optional: Custom slug for archive pages
             'supports' => array('title', 'editor', 'thumbnail'), // Specify what features the post type supports
             'show_in_rest' => true,
         )
