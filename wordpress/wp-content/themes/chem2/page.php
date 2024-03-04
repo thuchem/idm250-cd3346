@@ -1,15 +1,11 @@
 <?php get_header(); ?>
-
-<div style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');">
-    <h1><?php the_title(); ?></h1>
-    <p><?php the_excerpt(); ?></p>
+<!-- <h1>
+  <?php echo get_the_title(); ?>
+</h1> -->
+<div class="content-page-1">
+  <?php
+    echo get_the_content();
+  ?>
 </div>
-<div class="content">
-    <?php
-    while ( have_posts() ) : the_post();
-        the_content();
-    endwhile;
-    ?>
-</div>
-
+<!-- <p>This is a page.php template</p> -->
 <?php get_footer(); ?>
