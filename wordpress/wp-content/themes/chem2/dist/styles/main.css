@@ -504,3 +504,35 @@ div .wp-block-table:nth-child(23){
  padding-top:118px;
 }
 
+/* 404 page css */
+/* Body */
+body{
+ background-color:#2a2a2a;
+ height:100vh;
+}
+
+/* Element */
+.element-php{
+ font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+ color:#ffffff;
+ font-size:100px;
+}
+
+/* Text wrapper */
+.element-php .div .text-wrapper{
+ font-size:60vw;
+ position:relative;
+ top:-200px;
+ left:600px;
+}
+
+/* Text wrapper 2 */
+.element-php .div .text-wrapper-2{
+ position:relative;
+ top:-600px;
+ font-weight:700;
+ font-size:20vw;
+}
+
+
+
