@@ -1,3 +1,4 @@
+/* single post css */
 .frame {
     display: inline-flex;
     align-items: flex-start;
@@ -309,3 +310,197 @@
     text-align: center;
     font-style: normal;
 }
+
+
+
+/* page 1 css */
+
+ div .wp-block-image .wp-image-61 .wp-image-75 {
+  width: 100vw !important;
+}
+
+ div .wp-block-gallery {
+  display: flex;
+  grid-template-columns: auto 3fr !important;
+  grid-template-rows: auto 1fr !important;
+  clear: none;
+  justify-content: space-between;
+  transform: translatex(0px) translatey(0px);
+  margin-left: 10vw;
+  margin-right: 10vw;
+  align-items: normal;
+}
+
+ .wp-block-gallery .wp-block-image img {
+  transform: translatex(0px) translatey(0px);
+}
+
+ div .wp-block-image:nth-child(1) .wp-image-63 {
+  padding-right: 0px;
+  margin-right: -50px;
+}
+
+ div h1 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 63px;
+  margin-left: 5vw;
+}
+
+ div .wp-block-gallery .wp-block-image {
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+ div > p {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 2em !important;
+}
+
+/* Video */
+ div .wp-block-video video{
+ width:90vw;
+ margin-left:5vw;
+ margin-right:5vw;
+}
+
+/* Block image */
+ div .wp-block-image:nth-child(6){
+ margin-left:5vw;
+}
+
+/* Block pullquote */
+ div .wp-block-pullquote{
+ font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+ position:relative;
+ transform: translatey(-256px);
+ width:90vw;
+ margin-left:5vw;
+ top:-119px;
+}
+
+/* Block buttons */
+ div .wp-block-buttons{
+ transform: translatey(-187px);
+ padding-bottom:84px;
+}
+
+ ol {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 5em;
+    margin-left: 10vw;
+    font-style: italic;
+}
+
+/* Paragraph */
+div p:nth-child(11){
+ width:50vw;
+ margin-left:45vw;
+ margin-top:-50px;
+ position:relative;
+ top:-500px;
+}
+
+/* Block media text */
+div .wp-block-media-text{
+ margin-top:-300px;
+}
+
+/* Block image */
+div .wp-block-image:nth-child(13){
+ position:relative;
+ top:-1000px;
+ left:-200px;
+}
+
+.wp-block-table table {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    height: 419px;
+    min-width: 0px;
+}
+
+.wp-block-table .wp-element-caption {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    margin-left: 10vw;
+    margin-top: 2vw;
+}
+
+h3.wp-block-heading {
+    position: absolute;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    width: 771px;
+    transform: translateX(657px) translateY(-592px);
+}
+ h4.wp-block-heading {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+ h2.wp-block-heading {
+    transform: translateX(0px) translateY(0px);
+}
+
+ h5.wp-block-heading {
+    font-size: 30px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+ h6.wp-block-heading {
+    font-size: 25px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-style: normal;
+}
+
+/* page 2 css */
+
+/* Image 75 */
+div .wp-block-image .wp-image-75{
+ width:100vw !important;
+}
+
+/* Paragraph */
+div p:nth-child(10){
+ width:50vw;
+ position:relative;
+ top:-500px;
+ left:600px;
+}
+
+/* Block image */
+div .wp-block-image:nth-child(12){
+ position:relative;
+ top:-500px;
+ left:-200px;
+}
+
+/* Paragraph */
+div > p{
+ flex-direction:row;
+}
+
+/* Paragraph */
+div p:nth-child(13){
+ font-size:95px !important;
+ font-weight:700 !important;
+ text-align:center;
+}
+
+/* Block table */
+div .wp-block-table:nth-child(23){
+ padding-top:118px;
+}
+
