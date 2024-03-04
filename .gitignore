@@ -1,0 +1,48 @@
+Last login: Mon Mar  4 03:06:23 on ttys000
+tramduong@Trams-MBP ~ % cd /Users/tramduong/Documents/IDM250/week9
+tramduong@Trams-MBP week9 % idm250-cd3346
+zsh: command not found: idm250-cd3346
+tramduong@Trams-MBP week9 % touch .gitignore
+tramduong@Trams-MBP week9 % nano .gitignore
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  UW PICO 5.09                    File: .gitignore                    Modified  
+
+wp-config.php                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Pg   ^K Cut Text  ^C Cur Pos   
+^X Exit      ^J Justify   ^W Where is  ^V Next Pg   ^U UnCut Text^T To Spell  
