@@ -8,7 +8,7 @@ function theme_scripts_and_styles()
 
 add_action('wp_enqueue_scripts', 'theme_scripts_and_styles');
 
-function register_themes_menus()
+function register_theme_menus()
 {
     register_nav_menus([
         'primary' => 'Primary Menu',
@@ -16,39 +16,26 @@ function register_themes_menus()
     ]);
 }
 
-add_filter('wp_nav_menu_items', 'wrap_menu_item_in_button', 10, 2);
+add_action('init', 'register_theme_menus' );
 
-function wrap_menu_item_in_button($items, $args) {
-    if (in_array($args->theme_location, array('primary', 'footer'))) {
-        $find = '<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">';
-        $replace = '<button><li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">';
-        $items = str_replace($find, $replace, $items);
-        $find = '</li>';
-        $replace = '</button></li>';
-        $items = str_replace($find, $replace, $items);
-        $find = '<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27">';
-        $replace = '<button><li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27">';
-        $items = str_replace($find, $replace, $items);
-        $find = '</li>';
-        $replace = '</button></li>';
-        $items = str_replace($find, $replace, $items);
-    }
-    return $items;
-}
+// Enable featured images
+add_theme_support('post-thumbnails');
 
-function create_post_type() {
-    register_post_type('projects', // Use lowercase for the post type ID
-        array(
-            'labels' => array(
-                'name' => __('Projects', 'text-domain'), // Use double underscores and specify your theme's text-domain
-                'singular_name' => __('Projects', 'text-domain'),
-            ),
-            'public' => true,
-            'has_archive' => true,
-            'rewrite' => array('slug' => 'projects'), // Optional: Custom slug for archive pages
-            'supports' => array('title', 'editor', 'thumbnail'), // Specify what features the post type supports
-            'show_in_rest' => true,
-        )
-    );
+/* Custom Post Type Start */
+function create_posttype() {
+register_post_type( 'projects',
+// CPT Options
+array(
+'labels' => array(
+'name' => __( 'Projects' ),
+'singular_name' => __( 'Projects' )
+),
+'public' => true,
+'has_archive' => false,
+'rewrite' => array('slug' => 'projects'),
+)
+);
 }
-add_action('init', 'create_post_type');
+// Hooking up our function to theme setup
+add_action( 'init', 'create_posttype' );
+

@@ -15,7 +15,7 @@
             </div>
             <div class="menu-items">
                 <?php wp_nav_menu( [
-                    'theme_location' => 'primary'
+                    'theme_location' => '404-menu'
                     ]); ?>
             </div>
           </div>

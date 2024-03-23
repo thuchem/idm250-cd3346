@@ -7,5 +7,5 @@
     echo get_the_content();
   ?>
 </div>
-<!-- <p>This is a single-projects.php template</p> -->
+<!-- <p>This is a page.php template</p> -->
 <?php get_footer(); ?>

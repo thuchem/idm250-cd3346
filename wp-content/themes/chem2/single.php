@@ -2,7 +2,7 @@
 <!-- <h1>
   <?php echo get_the_title(); ?>
 </h1> -->
-<div class="content">
+<div class="content-page-1">
   <?php
     echo get_the_content();
   ?>
