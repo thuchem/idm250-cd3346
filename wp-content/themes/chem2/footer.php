@@ -9,7 +9,7 @@
 <body>
     <footer>
         <div class="footer">
-            <a>© 2024 | IDM 250</a>
+            <a href="https://github.com/thuchem/idm250-cd3346/tree/main" target="_blank" >© 2024 | IDM 250</a>
             <a href="https://www.thuchem.com/" target="_blank">Portfolio</a>
         </div>
     </footer>
